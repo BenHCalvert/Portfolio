@@ -1,14 +1,38 @@
 /* font-family: 'Cutive Mono', monospace;
 font-family: 'Chivo', sans-serif; */
 
-nav{
-    font-family: 'Chivo', sans-serif;
-    font-weight: light !important;
+/* nav bar */
+nav{    
     font-size: 16px;
-    letter-spacing: .02em;
+    letter-spacing: .03em;
     border-radius: 4px;
+    color: #777 !important;   
+}
+
+/* navbar link buttons */
+nav ul li a{
+    color:#777;
+    font-family: 'Cutive Mono', monospace;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+  }
+
+nav .brand-logo{
+    padding-left: 50px !important;
+    color: #777 !important;
+    font-family: 'Cutive Mono', monospace !important;
 }
 
 .nav-wrapper{
     border-radius: 4px;
 }
+
+/* class to remove shadows */
+.no-shadows {
+    box-shadow: none!important;
+}
+
+/* .navbarspace{
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
