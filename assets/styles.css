@@ -32,11 +32,13 @@ nav .brand-logo{
     box-shadow: none!important;
 }
 
-/* .navbarspace{
-    padding-top: 10px;
-    padding-bottom: 10px;
-} */
-
 #subnav{
     height: 15px !important;
 }
+
+@media only screen and (max-width: 505px) {
+    nav .brand-logo {
+      font-size: 1.3em !important;
+      padding-left: 0px !important;
+    }
+  }
