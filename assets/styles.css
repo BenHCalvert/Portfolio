@@ -36,3 +36,7 @@ nav .brand-logo{
     padding-top: 10px;
     padding-bottom: 10px;
 } */
+
+#subnav{
+    height: 15px !important;
+}
