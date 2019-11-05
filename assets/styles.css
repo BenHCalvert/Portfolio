@@ -36,7 +36,7 @@ nav .brand-logo{
     height: 15px !important;
 }
 
-@media only screen and (max-width: 505px) {
+@media only screen and (max-width: 520px) {
     nav .brand-logo {
       font-size: 1.3em !important;
       padding-left: 0px !important;
