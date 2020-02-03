@@ -6,6 +6,10 @@
       color: #777 !important;   
   }
 
+  form{
+    font-family: 'Cutive Mono', monospace !important;
+  }
+
   /* navbar link buttons */
   nav ul li a{
       color:#777;
@@ -24,10 +28,11 @@
       border-radius: 4px;
   }
 
-/* footer{
-  padding: 5px;
-  height: .5em;
-} */
+  .page-footer {
+    margin-top: 15px;
+    padding-top: 20px;
+    color: #fff;
+}
 
 /* class to remove shadows */
 .no-shadows {
@@ -36,6 +41,10 @@
 
 #subnav{
     height: 15px !important;
+}
+
+#footer-text{
+    text-align: center;
 }
 
 @media only screen and (max-width: 520px) {
@@ -53,7 +62,7 @@
     main {
       flex: 1 0 auto; 
     }
-  }
+  }  
 
 /* Footer Styles for larger screens */
   @media only screen and (min-width: 520px) {

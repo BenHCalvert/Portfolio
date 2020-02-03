@@ -7,17 +7,17 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Chivo:300,400|Cutive+Mono&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" media="screen,projection" />
     <!-- external stylesheet -->
     <link rel="stylesheet" rel="stylesheet" href="assets/styles.css">
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ben Calvert</title>
 </head>
 
 <body>
-    
-    
+
+
     <!-- navbar -->
     <!-- fixes navbar to top of page -->
     <div class="navbarspace">
@@ -27,7 +27,7 @@
                     <a href="index.html" class="brand-logo mainLogo black-text">Ben Calvert</a>
                     <!-- helper class, only hides links on mobile -->
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down black-text" >
+                    <ul class="right hide-on-med-and-down black-text">
                         <li><a href="index.html">about</a></li>
                         <li><a href="portfolio.html">portfolio</a></li>
                         <li><a href="contact.html">contact</a></li>
@@ -36,40 +36,66 @@
             </nav>
         </div>
     </div>
-    
+
+    <!-- slide out side nav -->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="assets/images/" alt="background image">
+                </div>
+            </div>
+        </li>        
+        <li><a class="waves-effect" href="index.html">about</a></li>
+        <li><a class="waves-effect" href="portfolio.html">portfolio</a></li>
+        <li><a class="waves-effect" href="contact.html">contact</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>       
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
     <!-- Use bkgrnd to create space between the navbar and the body -->
     <div class="row" id="subnav"></div>
-    
-    <div class="container">        
+
+    <div class="container">
         <!-- Page Layout here -->
         <div class="row">
             <!-- headshot -->
             <div class="col s12 m6">
-               <img class="responsive-img" src="assets/images/BC_Headshot.JPG" alt="Ben's headshot">
+                <img class="responsive-img" src="assets/images/BC_Headshot.JPG" alt="Ben's headshot">
             </div>
             <!-- bio text -->
             <div class="col s12 m6">
-               Cheese and wine cheese strings feta. Boursin say cheese stinking bishop cheese strings gouda macaroni cheese rubber cheese stilton. Babybel cheese slices croque monsieur cream cheese feta brie emmental melted cheese. Cheese and biscuits pecorino cheeseburger jarlsberg emmental macaroni cheese cow bavarian bergkase. Emmental rubber cheese mozzarella lancashire the big cheese manchego say cheese hard cheese.                  
+                Cheese and wine cheese strings feta. Boursin say cheese stinking bishop cheese strings gouda macaroni
+                cheese rubber cheese stilton. Babybel cheese slices croque monsieur cream cheese feta brie emmental
+                melted cheese. Cheese and biscuits pecorino cheeseburger jarlsberg emmental macaroni cheese cow bavarian
+                bergkase. Emmental rubber cheese mozzarella lancashire the big cheese manchego say cheese hard cheese.
 
-                <p>Paneer cheese strings edam. Fromage red leicester manchego hard cheese rubber cheese airedale stilton paneer. Roquefort airedale feta taleggio parmesan pepper jack cheesy grin cheese on toast.  Dolcelatte bavarian bergkase who moved my cheese cheesy feet when the cheese comes out everybody's happy.</p>
+                <p>Paneer cheese strings edam. Fromage red leicester manchego hard cheese rubber cheese airedale stilton
+                    paneer. Roquefort airedale feta taleggio parmesan pepper jack cheesy grin cheese on toast.
+                    Dolcelatte bavarian bergkase who moved my cheese cheesy feet when the cheese comes out everybody's
+                    happy.</p>
             </div>
-        </div>      
-            
-            
+        </div>
+
+
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer grey">        
+    <footer class="page-footer grey">
         <div class="footer-copyright grey">
-            <div class="container">Ben Calvert</div>
+            <div class="container" id="footer-text">Ben Calvert</div>
         </div>
     </footer>
-        
+
     <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <!--Materialize JS-->
     <script type="text/javascript" src="materialize/js/materialize.js"></script>
     <!-- external JS file -->
     <script src="assets/scripts.js"></script>
 </body>
+
 </html>
